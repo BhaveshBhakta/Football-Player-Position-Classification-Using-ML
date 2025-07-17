@@ -1,69 +1,61 @@
-# 🍎 Apple Quality Classification
+# 🏈 Football Player Performance Classification
 
 ## 🧠 Project Overview
 
-This machine learning project aims to classify the **quality of apples** (good or bad) based on various physicochemical attributes such as size, weight, sugar content, acidity, etc. Using supervised learning techniques, the model can assist in automating fruit quality control for agriculture and supply chain systems.
+This project focuses on classifying football players based on performance or quality metrics using machine learning models. By leveraging a dataset containing various player statistics, the project builds models to predict player classes (e.g., elite vs average) through thorough data exploration, preprocessing, and classification.
 
 ---
 
 ## ⚙️ Technical Highlights
 
-* 📂 **Dataset**: [Kaggle - Apple Quality Dataset](https://www.kaggle.com/datasets/nelgiriyewithana/apple-quality)
-* 🧼 **Preprocessing**:
+* 📂 **Dataset**: Imported from [Kaggle](https://www.kaggle.com/)
+* 🔍 **Exploratory Data Analysis (EDA)**:
 
-  * Removed duplicate and null entries
-  * Dropped irrelevant `A_id` column
-  * Label encoded the `Quality` target variable
-* 📊 **EDA**:
+  * Data shape, data types, summary stats
+  * Missing values and duplicates check
+  * Distribution plots and boxplots for outlier detection
+  * Heatmap for correlation analysis
+* 🧹 **Data Preprocessing**:
 
-  * Descriptive statistics
-  * Null value checks
-  * Distribution and correlation analysis
-* 🧠 **Models Implemented**:
+  * Label Encoding for categorical features
+  * Feature-target split for model training
+  * Train/Test split (80/20)
+* 🧠 **Models Used**:
 
-  * Logistic Regression
-  * Ridge Classifier
-  * Random Forest
-  * AdaBoost
-  * Gradient Boosting
-  * XGBoost
-  * Decision Tree
-  * Bagging Classifier
-  * Support Vector Machine (SVM)
-* ✅ **Model Evaluation**:
+  * Logistic Regression, Ridge Classifier, Support Vector Machine
+  * Decision Tree, Random Forest, XGBoost
+  * AdaBoost, Gradient Boosting, Bagging Classifier
+* 📊 **Evaluation Metrics**:
 
   * Accuracy Score
-  * Confusion Matrix
-  * Classification Report (Precision, Recall, F1-score)
-  * Visualizations of confusion matrices
+  * Confusion Matrix (with heatmap)
+  * Classification Report (Precision, Recall, F1)
 
 ---
 
 ## 🎯 Purpose and Applications
 
-* Automate **fruit quality grading**
-* Assist **farmers and retailers** in real-time quality assessment
-* Reduce **manual errors** and labor costs in quality checking
-* Serve as a reference for similar food classification tasks
+* 📈 Identify and categorize player performance levels
+* 🧪 Useful for talent scouting, team strategy optimization, and performance benchmarking
+* 🧠 Practical implementation of classification techniques in sports analytics
 
 ---
 
-## 🛠️ Installation
+## 🛠 Installation
 
- **Clone the repository**
+ Clone the repository:
 
    ```bash
    git clone https://github.com/BhaveshBhakta/Football-Player-Position-Classification-Using-ML.git
    cd Football-Player-Position-Classification-Using-ML
    ```
 
-
 ---
 
-##  Collaboration
+## 🤝 Collaboration
 
-Contributions and suggestions are welcome!
+Contributions are welcome!
 
-* 🛠 Fork the repo
-* 🌿 Create a feature branch
-* ✅ Submit a pull request
+* 📬 Feel free to open issues or submit pull requests.
+* ⭐ If you find this project helpful, give it a star on GitHub!
+
